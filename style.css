@@ -1,0 +1,64 @@
+body {
+	font-family: 'Fredericka the Great', cursive;
+	text-align: center;
+}
+
+#start-button {
+	font-family: 'Fredericka the Great', cursive;
+	margin-top: 260px;
+	font-size: 60px;
+	background-color: #0cb765;
+	color: black;
+	border-radius: 3px;
+}
+
+#start-button:active {
+	background-color: black;
+	color: white;
+}
+
+section {
+	margin: 0 auto;
+	width: 50%;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	display: none;
+}
+
+h1 {
+	font-size: 100px;
+	margin: 30px;
+}
+
+h2 {
+	font-size: 100px;
+	margin: 30px auto;
+	width: 480px;
+}
+
+#reset-button {
+	color: red;
+	font-size: 130px;
+	font-family: 'Fredericka the Great', cursive;
+	display: none;
+	margin: 30px auto;
+	border-radius: 3px;
+}
+
+#reset-button:active {
+	color: white;
+	background-color: red;
+}
+
+div {
+	background-color: white;
+	border: 3px solid rgba(100, 100, 100, .3);
+	width: 30%;
+	height: 200px;
+	align-items: center;
+	line-height: 200px;
+	color: white;
+	font-size: 40px;
+}
+
